@@ -28619,6 +28619,7 @@ var Todo = function (_React$Component) {
                             ' item left'
                         ) : _react2.default.createElement(
                             'p',
+                            { className: 'badge'},
                             null,
                             this.props.originalitems - this.props.completedCount,
                             ' items left'
