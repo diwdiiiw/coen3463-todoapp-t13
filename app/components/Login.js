@@ -48,7 +48,7 @@ class Login extends Component {
     
     render(){
     return (
-      <div className="counter">
+      <div className="form-group">
           {this.state.error}
           <br/>
           <label>username</label>
