@@ -13216,7 +13216,7 @@ var App = function (_React$Component) {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'TODOaholic'
+                        'TODOaholics !'
                     )
                 ),
                 this.props.children
@@ -28665,7 +28665,7 @@ var Todo = function (_React$Component) {
                         { className: 'row' },
                         this.props.onUpdate ? _react2.default.createElement(_loading2.default, { text: 'Loading', speed: 300 }) : _react2.default.createElement(
                             'div',
-                            { className: 'col-md-4' },
+                            { className: 'App-section text-center' },
                             null,
                             _react2.default.createElement(
                                 'ul',

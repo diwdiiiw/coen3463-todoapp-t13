@@ -1,5 +1,20 @@
 .App {
+
 }
+.App-section {
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 10px;
+
+}
+.App-sections {
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-right: 450px;
+
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -7,9 +22,9 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-image: url("http://kingofwallpapers.com/background-dark/background-dark-010.jpg");
   height: 50px;
-  padding: 20px;
+  padding: 50px;
   color: white;
 }
 
@@ -17,6 +32,7 @@
   font-size: large;
   padding-left: 50px;
 }
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
