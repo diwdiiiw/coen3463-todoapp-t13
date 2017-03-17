@@ -28621,8 +28621,25 @@ var Todo = function (_React$Component) {
                             'p',
                             { className: 'badge'},
                             null,
+                            this.props.completedCount,
+                            ' Todos Completed'
+                        ),
+                        ' '
+                    ),
+                    this.props.onCounting ? _react2.default.createElement(_loading2.default, { text: 'Loading', speed: 300 }) : _react2.default.createElement(
+                        'div',
+                        null,
+                        this.props.originalitems - this.props.completedCount === 1 ? _react2.default.createElement(
+                            'p',
+                            null,
                             this.props.originalitems - this.props.completedCount,
-                            ' items left'
+                            ' item left'
+                        ) : _react2.default.createElement(
+                            'p',
+                            { className: 'badge'},
+                            null,
+                            this.props.originalitems - this.props.completedCount,
+                            ' Todos Left'
                         ),
                         ' '
                     ),
